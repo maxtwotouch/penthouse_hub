@@ -11,7 +11,7 @@ export default function Layout() {
   return (
     <div className="h-screen w-screen flex flex-col bg-base-100 text-base-content transition-all duration-500">
       <header className="navbar bg-base-200 border-b border-base-300 px-4">
-        <div className="flex-1 text-xl font-bold">🏠 Home Hub</div>
+        <div className="flex-1 text-xl font-bold">🏠 Penthouse Hub</div>
         <div className="flex-none">
           <button
             className="btn btn-ghost btn-sm"
@@ -30,6 +30,7 @@ export default function Layout() {
         <Link to="/bus" className="dock-item">
           <span className="text-xl">🚌</span>
           <span className="dock-label text-xs">Bus</span>
+            <span className="dock-label text-xs">This is a test</span>
         </Link>
         <Link to="/weather" className="dock-item">
           <span className="text-xl">🌦</span>
